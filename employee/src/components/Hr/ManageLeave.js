@@ -97,13 +97,13 @@ const ManageLeave = () => {
                 <TableBody>
                   {leaves.map((leave, index) => (
                     <TableRow key={index}>
-                      <TableCell>{leave.ID}</TableCell>
-                      <TableCell>{leave.name}</TableCell>
-                      <TableCell>{leave.department}</TableCell>
-                      <TableCell dangerouslySetInnerHTML={{ __html: formatDate(leave.leaveStartDate) }}></TableCell>
-                      <TableCell dangerouslySetInnerHTML={{ __html: formatDate(leave.leaveEndDate) }}></TableCell>
-                      <TableCell>{leave.reasonForLeave}</TableCell>
-                      <TableCell>{leave.status}</TableCell>
+                      <TableCell style={{ color: 'yellow' }}>{leave.ID}</TableCell>
+                      <TableCell style={{ color: 'yellow' }}>{leave.name}</TableCell>
+                      <TableCell style={{ color: 'yellow' }}>{leave.department}</TableCell>
+                      <TableCell style={{ color: 'yellow' }} dangerouslySetInnerHTML={{ __html: formatDate(leave.leaveStartDate) }}></TableCell>
+                      <TableCell style={{ color: 'yellow' }} dangerouslySetInnerHTML={{ __html: formatDate(leave.leaveEndDate) }}></TableCell>
+                      <TableCell style={{ color: 'yellow' }}>{leave.reasonForLeave}</TableCell>
+                      <TableCell style={{ color: 'yellow' }}>{leave.status}</TableCell>
                       <TableCell>
                         <Button disabled={leave.status === 'Accepted'} onClick={() => handleAccept(index)}>Accept</Button>
                         <Button disabled={leave.status === 'Rejected'} onClick={() => handleReject(index)}>Reject</Button>
