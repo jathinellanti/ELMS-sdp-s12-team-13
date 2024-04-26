@@ -16,7 +16,7 @@ const DeleteEmployee = ({ handleSnackbarOpen }) => {
     }
 
     try {
-      const response = await axios.delete(`http://localhost:5000/deleteemployee/${ID}`);
+      const response = await axios.delete(`https://elms-sdp-s12-team-13.onrender.com/deleteemployee/${ID}`);
       console.log('Server Response:', response.data);
       setId('');
       setError('');

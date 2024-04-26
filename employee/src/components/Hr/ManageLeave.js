@@ -12,7 +12,7 @@ const ManageLeave = () => {
   useEffect(() => {
     const fetchLeaves = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/manageleave');
+        const response = await axios.get('https://elms-sdp-s12-team-13.onrender.com/manageleave');
         // Set the initial status to 'Pending' for each leave
         const leavesWithStatus = response.data.map(leave => ({ ...leave, status: 'Pending' }));
         setLeaves(leavesWithStatus);

@@ -25,7 +25,7 @@ const Signup = () => {
     console.log(data);
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/adminlogin', data);
+      const response = await axios.post('https://elms-sdp-s12-team-13.onrender.com/adminlogin', data);
 
       if (response.status === 200) {
         console.log('Signup successful');
