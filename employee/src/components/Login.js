@@ -214,7 +214,7 @@ const Login = () => {
           <h2 style={styles.loginTitle}>Login</h2>
           <div style={styles.inputContainer}>
             <div style={styles.inputFieldContainer}>
-              <label style={styles.emailLabel}>Email:</label>
+              <label style={styles.emailLabel}>ID:</label>
               <input
                 type="email"
                 placeholder="Enter your email"
