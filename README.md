@@ -1,7 +1,5 @@
 # Employee Leave Management System
 
-![Employee Leave Management System](https://your-project-image-url.png)
-
 This project is a full-stack web application designed to streamline the process of managing employee leave requests within an organization. It provides a user-friendly interface for both employees and administrators to handle leave requests efficiently.
 
 ## Features
