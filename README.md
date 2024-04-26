@@ -53,8 +53,8 @@ This project is a full-stack web application designed to streamline the process 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/employee-leave-management.git
-   cd employee-leave-management
+   git clone https://github.com/your-username/Repository_name.git
+   cd project_name
    ```
 
 2. **Install dependencies for both backend and frontend:**
